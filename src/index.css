@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@theme {
+  --color-primary: #5f6fff;
+}
+
+.active hr {
+  @apply block;
+}
+
+.active button {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
